@@ -20,50 +20,50 @@
 .profile-name {
   text-align: center;
   padding: 10px;
-  font-family: Karla, sans-serif;
+  font-family: sans-serif;
   font-weight: 700;
   color: #FEFFFE;
-  font-size: 20px
+  font-size: 2em
 }
 
 .profile-about {
   text-align: center;
-  padding: 2px;
-  font-family: Dosis, sans-serif;
-  color: #FEFFFE;
-  font-size: 15px;
-  letter-spacing: 2px
+    font-family: sans-serif;
+    color: #FEFFFE;
+    font-size: 1em;
+    margin-bottom: 0;
 }
 
 .links {
-  text-align: center;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   padding: 15px;
-  border: .5px solid #27262B;
   border-width: 1px;
   display: block;
   border-radius: 10px;
-  font-family: Karla, sans-serif;
+  font-family: cursive;
   position: relative;
-  font-size: 17px;
-  width: 680px;
-  max-width: 95%;
-  transition: all .3s ease-in-out
+  width: 90%;
+  max-width: 680px;
+  transition: all .3s ease-in-out;
+  height: 80px;
 }
 
 
-.links-in {
+a.links img {
+  background-color: #fff;
   padding: 5px;
-  border: .5px solid #ffffff00;
-  border-width: 1px;
-  width: 30px;
-  display: block;
-  border-radius: 40px;
+  width: 50px;
+  display: inline-block;
+  border-radius: 5px;
   left: 20px;
   position: absolute;
-  font-size: 20px
+}
+a.links b {
+  font-size: 30px;
+  left: 80px;
+  position: absolute;
 }
 
 .hover {
